@@ -1,4 +1,4 @@
-# Optimized but FUNCTIONAL buil
+# Optimized but FUNCTIONAL build
 FROM ubuntu:22.04 AS base
 
 # Prevent interactive prompts
