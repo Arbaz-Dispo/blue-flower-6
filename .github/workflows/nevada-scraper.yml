@@ -30,7 +30,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}/nevada-scraper
+  IMAGE_NAME: arbaz-dispo/nevada-scraper
 
 jobs:
   # Build and push Docker image (only when needed)
