@@ -12,7 +12,7 @@ import os
 import sys
 
 # Configuration
-API_KEY = os.getenv('SOLVECAPTCHA_API_KEY', "e8241ace650146ad502519d5ef2bf819")
+API_KEY = os.getenv('SOLVECAPTCHA_API_KEY')
 SOLVE_URL = "https://api.solvecaptcha.com/in.php"
 RESULT_URL = "https://api.solvecaptcha.com/res.php"
 NEVADA_URL = "https://esos.nv.gov/EntitySearch/OnlineEntitySearch"
