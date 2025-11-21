@@ -24,9 +24,6 @@ on:
     paths:
       - 'Dockerfile'  # Rebuild image when Dockerfile changes
       - 'requirements.txt'  # Rebuild when dependencies change
-  schedule:
-    # Run daily at 10 AM UTC (optional - remove if you don't want scheduled runs)
-    - cron: '0 10 * * *'
 
 env:
   REGISTRY: ghcr.io
